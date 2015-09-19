@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Sep 19, 2015, 11:45:59 AM
+    Author     : lexagrasz
+*/
+
+body{
+    font-family: sans-serif;
+    width: 750;
+    margin-left: 50px;
+    margin-right: 50px;
+    
+    
+}
+
+header{
+    text-align: center;
+}
+
+h1{
+  padding: 0;
+  margin-top: 1.5em;
+  margin-bottom: 0em;
+}
+
+.headerp{
+    padding: 0;
+    margin: 0;
+}
+
+h2{
+    text-decoration: underline;
+    margin-bottom: 0;
+    padding: 0;
+    
+}
+
+.boldp{
+    font-weight: bold;
+}
+
+p{
+    
+    margin: 0;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    
+}
+.lhs {
+   float: left;
+}
+.date {
+    float: right;
+}
+.tech {
+    margin: 0;
+}
+
+.future{
+    color: red;
+}
+
+#future{
+    color: red;
+}
+
+#futureone{
+    color: red;
+}
+
+ul{
+    margin: 0;
+}
+
+#futuretwo{
+    color: red;
+}
+
+#futurethree{
+    color: red;
+}
