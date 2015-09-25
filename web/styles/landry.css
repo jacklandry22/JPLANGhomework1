@@ -83,3 +83,48 @@ ul{
 #futurethree{
     color: red;
 }
+h2 p{
+    float: left;
+}
+
+@media screen and (min-width: 501px){
+    #firstEd {
+        display:none;
+    }
+    #firstIntern{
+    display:none;
+    }
+    #secondIntern{
+        display: none;
+    }
+    
+    .linebreak{
+        display: none;
+    }
+    .personalAdjust{
+        display:none;
+    }
+    
+}
+
+@media screen and (max-width: 500px) {
+    .date{
+        display: none;
+    }
+    #firstIntern {
+        order: 1;
+    }
+        
+    #thirdIntern {
+        order:3;
+    }
+    .hide{
+        float: left;
+    }
+    .headerp {
+        display: none;
+    }
+    
+    }
+    
+    
