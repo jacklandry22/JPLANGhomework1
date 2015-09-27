@@ -1,27 +1,38 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
 /* 
-    Created on : Sep 19, 2015, 11:45:59 AM
-    Author     : lexagrasz
+Copyright (c) Lexa Grasz & Jack Landry. 2015.
 */
 
-body{
-    font-family: sans-serif;
-    width: 750;
+main{
+    font-family: Times New Roman, sans-serif;
+    
     margin-left: 50px;
     margin-right: 50px;
     
     
 }
 
+.italics{
+    font-style: italic;
+}
+.italicsb{
+    font-style: italic;
+    font-weight: bold;
+}
+
+#ital{
+    font-style: italic;
+}
+
+#itali{
+    font-style: italic;
+}
+
+
 header{
     text-align: center;
 }
 
-h1{
+h2{
   padding: 0;
   margin-top: 1.5em;
   margin-bottom: 0em;
@@ -32,7 +43,7 @@ h1{
     margin: 0;
 }
 
-h2{
+h3{
     text-decoration: underline;
     margin-bottom: 0;
     padding: 0;
@@ -88,43 +99,25 @@ h2 p{
 }
 
 @media screen and (min-width: 501px){
-    #firstEd {
-        display:none;
-    }
-    #firstIntern{
-    display:none;
-    }
-    #secondIntern{
-        display: none;
-    }
-    
     .linebreak{
         display: none;
     }
     .personalAdjust{
         display:none;
     }
-    
+    #firstEd, #firstIntern, #secondIntern, #firstWork, #firstLead, #secondLead {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .date{
         display: none;
     }
-    #firstIntern {
-        order: 1;
-    }
-        
-    #thirdIntern {
-        order:3;
-    }
-    .hide{
+.hide{
         float: left;
     }
     .headerp {
         display: none;
     }
-    
-    }
-    
-    
+}
