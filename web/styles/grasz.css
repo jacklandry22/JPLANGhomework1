@@ -31,7 +31,7 @@ header{
     text-align: center;
 }
 
-h1{
+h2{
   padding: 0;
   margin-top: 1.5em;
   margin-bottom: 0em;
@@ -42,7 +42,7 @@ h1{
     margin: 0;
 }
 
-h2{
+h3{
     text-decoration: underline;
     margin-bottom: 0;
     padding: 0;
@@ -126,13 +126,13 @@ h2 p{
     .date{
         display: none;
     }
-    #firstIntern {
+/*    #firstIntern {
         order: 1;
     }
         
     #thirdIntern {
         order:3;
-    }
+    }*/
     .hide{
         float: left;
     }
